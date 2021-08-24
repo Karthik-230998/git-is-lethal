@@ -1,0 +1,16 @@
+node {
+
+    stage('SCM Checkout'){
+        echo "make checkout"
+        //git credentialsId: 'github', url:
+    stage("Build") {
+        echo "Building"
+    }
+    
+    stage("Test") {
+        echo "Testing"
+    }
+    stage("Deploy") {
+        echo "Deploying"
+    }
+}
