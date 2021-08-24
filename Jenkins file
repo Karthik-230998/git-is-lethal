@@ -2,7 +2,9 @@ node {
 
     stage('SCM Checkout'){
         echo "make checkout"
-        //git credentialsId: 'github', url:
+        //git credentialsId: 'github', url: 'https://github.com/Karthik-230998/git-is-lethal.git'
+        }
+        
     stage("Build") {
         echo "Building"
     }
@@ -10,6 +12,7 @@ node {
     stage("Test") {
         echo "Testing"
     }
+    
     stage("Deploy") {
         echo "Deploying"
     }
