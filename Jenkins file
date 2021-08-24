@@ -1,8 +1,8 @@
 node {
 
-    stage('SCM Checkout'){
+    stage('SCM Checkout') {
         echo "make checkout"
-        //git credentialsId: 'github', url: 'https://github.com/Karthik-230998/git-is-lethal.git'
+        //git credential:'karthik-230998', url: 'https://github.com/Karthik-230998/git-is-lethal.git'
         }
         
     stage("Build") {
